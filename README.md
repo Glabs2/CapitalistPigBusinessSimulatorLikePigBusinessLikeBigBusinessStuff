@@ -34,9 +34,9 @@ Progress:
 - [ ] Program capitalist menu screens
 - [ ] Program capitalist math
 - [ ] Get an Artist into the development Team
-- [ ] Make the Artist do Art stuff
+- [ ] Make the Artist do capitalist ASCII Art
 - [ ] Get an Musician into the development Team
-- [ ] Make the Musician compose midi Music
+- [ ] Make the Musician compose capitalist midi Music
 - [ ] Release Alpha
 - [ ] Use Alpha to get more Developers (or code monkeys what ever we can get)
 
