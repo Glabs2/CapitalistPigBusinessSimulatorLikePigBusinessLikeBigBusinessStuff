@@ -23,4 +23,4 @@ Git Hub style programming help is also much appreciated.
 - [ ] Decide how basic game play will look like
 
 As you can tell we currently have not much more then an idea but everything starts with an idea right?  
-More information will follow as soon as we have worked out what we actually what to do.
+More information will follow as soon as we have worked out what we actually what to do here.
