@@ -16,6 +16,7 @@ That means the aim of the game will be to get fucking rich like any capitalist p
 Well my communist friends we would love suggestions of course.
 Git Hub style programming help is also much appreciated.
 
+Progress:
 - [x] Write a basic Redme file
 - [ ] Decide what systems to Target
 - [x] Decide what programming Language to use (Python)
