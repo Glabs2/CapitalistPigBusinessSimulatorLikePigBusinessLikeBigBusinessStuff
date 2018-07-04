@@ -1,3 +1,4 @@
+#Formulars and Calulations used by the game
 import random as r
 
 class CapMath:
@@ -8,15 +9,5 @@ class CapMath:
 
 
     def calculate_customers(self,pr_val,employees):
-    	customers = (pr_val + employees * r.uniform(0.8,1.3)) * r.uniform(0.9,1.2) 
+    	customers = (pr_val + employees * r.uniform(0.8,1.3)) * r.uniform(0.9,1.2)
     	return customers
-
-
-
-
-
-
-
-
-
-
