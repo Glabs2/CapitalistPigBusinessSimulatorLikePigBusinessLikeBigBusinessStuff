@@ -19,16 +19,26 @@ That means the aim of the game will be to get fucking rich like any capitalist p
 - branch specific random events like Police raids, Government substitutions,health inspections, etc
 - Single System multi-player
 - Multi-system (LAN) multi-player
+- Awesome 80s style ASCII-Art
+- Awesome 80s style Midi Music
 
 Don't forget my communist friends we love suggestions of course.
 Git Hub style programming help is also much appreciated.
 
 Progress:
 - [x] Write a basic Redme file
-- [ ] Decide what systems to Target
+- [x] Decide what systems to Target
 - [x] Decide what programming Language to use (Python)
-- [ ] Decide on what branchs to include
+- [x] Decide on what branches to include
 - [ ] Decide how basic game play will look like
+- [ ] Program capitalist menu screens
+- [ ] Program capitalist math
+- [ ] Get an Artist into the development Team
+- [ ] Make the Artist do Art stuff
+- [ ] Get an Musician into the development Team
+- [ ] Make the Musician compose midi Music
+- [ ] Release Alpha
+- [ ] Use Alpha to get more Developers (or code monkeys what ever we can get)
 
 Planed branches:
 1. Night Club
