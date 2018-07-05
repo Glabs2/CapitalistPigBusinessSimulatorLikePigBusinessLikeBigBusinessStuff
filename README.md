@@ -11,12 +11,18 @@ If you can answer all this questions with yes then you are in the right place.
 ## So What are the goals of this game?
 We what to make a **Super crazy, 80s style, Text based, communist inspired, anti-capitalist capitalism simulator**.  
 That means the aim of the game will be to get fucking rich like any capitalist pig would like to be.
+Only to than trow all the money away for useless luxury goods.  
+**Fuck them!!!  
+just fuck them!!!  
+fuck them all to death in fact!!!**  
+The game why show you why you should and will dislike capitalism.
 ## Sounds good so what features will it have?
 - Branch overarching management features like PR, Accounting, Taxes, insurance, etc
 - Unique Business options for every branch
 - Lots of legal and illegal Business ventures to take part in
 - Overarching random events like fires, strikes, etc
 - branch specific random events like Police raids, Government substitutions,health inspections, etc
+-luxury goods
 - Single System multiplayer
 - Multi-system (LAN) multiplayer
 - Awesome 80s style ASCII Art
@@ -36,6 +42,8 @@ Progress:
 - [ ] Program capitalist math
 - [ ] Program capitalist financial options
 - [ ] Program capitalist save file manager
+- [ ] Program capitalist spacial events
+- [ ] Program capitalist toys
 - [ ] Get an Artist into the development Team
 - [ ] Make the Artist do capitalist ASCII Art
 - [ ] Get an Musician into the development Team
