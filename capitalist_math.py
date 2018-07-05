@@ -1,4 +1,4 @@
-#Formulars and Calulations used by the game
+# Formulars and Calulations used by the game
 import random as r
 
 class CapMath:
