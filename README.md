@@ -17,9 +17,9 @@ That means the aim of the game will be to get fucking rich like any capitalist p
 - Lots of legal and illegal Business ventures to take part in
 - Overarching random events like fires, strikes, etc
 - branch specific random events like Police raids, Government substitutions,health inspections, etc
-- Single System multi-player
-- Multi-system (LAN) multi-player
-- Awesome 80s style ASCII-Art
+- Single System multiplayer
+- Multi-system (LAN) multiplayer
+- Awesome 80s style ASCII Art
 - Awesome 80s style Midi Music
 
 Don't forget my communist friends we love suggestions of course.
@@ -33,12 +33,15 @@ Progress:
 - [ ] Decide how basic game play will look like
 - [ ] Program capitalist menu screens
 - [ ] Program capitalist math
+  [ ] Program capitalist financial options
+- [ ] Program capitalist save file manager
 - [ ] Get an Artist into the development Team
 - [ ] Make the Artist do capitalist ASCII Art
 - [ ] Get an Musician into the development Team
 - [ ] Make the Musician compose capitalist midi Music
 - [ ] Release Alpha
 - [ ] Use Alpha to get more Developers (or code monkeys what ever we can get)
+- [ ] Add an introduction into the secret and exciting ways of capitalist pigs (Tutorial)
 
 Planed branches:
 1. Night Club
