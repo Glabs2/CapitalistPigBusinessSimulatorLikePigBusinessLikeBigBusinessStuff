@@ -31,10 +31,10 @@ Progress:
 - [x] Decide what programming Language to use (Python)
 - [x] Decide on what branches to include
 - [ ] Decide how basic game play will look like
-  [x] Build Object oriented Program structure as a foundation for all future code
+- [x] Build Object oriented program structure as a foundation for all future code
 - [ ] Program capitalist menu screens
 - [ ] Program capitalist math
-  [ ] Program capitalist financial options
+- [ ] Program capitalist financial options
 - [ ] Program capitalist save file manager
 - [ ] Get an Artist into the development Team
 - [ ] Make the Artist do capitalist ASCII Art
