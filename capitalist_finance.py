@@ -6,7 +6,7 @@ class loan:
     borrower = ""
     giver = "capitalist_bank"
     sum = 0.00 #Value in Currency units
-    rate = 0.00 #Value in Currency units
+    rate = 0.00 #Value in Currency units per month
     intrest = 0.0000 #Value in Percent
     def take(self):
         pass
