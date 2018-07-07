@@ -5,7 +5,8 @@ class loan:
     year = 1982
     month = 6
     # day = 4
-    giver = capitalist_business.npc_bank
+    borrower = capitalist_business.business()
+    giver = capitalist_business.business()
     sum = 0.00 #Value in Currency units
     rate = 0.00 #Value in Currency units per month
     intrest = 0.0000 #Value in Percent
@@ -18,15 +19,16 @@ class loan:
         self.giver = giver
         self.sum = sum
         self.intrest = intrest
+        #Rework: borth missing
         if rate == None:
-            self.rate = capitalist_math.cap_math.calculate_rate
-        else
+            self.rate = capitalist_math.calculate_rate(sum=sum,intrest=intrest,duration=duration)
+        else:
             self.rate = rate
         if duration == None:
-            self.duration = capitalist_math.cap_math.calculate_duration(sum,rate,intrest)
-        else
-        self.duration = duration
-        borrower.loans.add(self)
+            self.duration = capitalist_math.calculate_duration(sum=sum,intrest=intrest,rate=rate)
+        else:
+            self.duration = duration
+            borrower.loans.add(self)
     def give(self):
         pass
     def do_pay_rate(self):

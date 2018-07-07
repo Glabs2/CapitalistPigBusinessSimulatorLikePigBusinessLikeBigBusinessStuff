@@ -14,7 +14,7 @@ class employee:
     moral = 1
     health = 1
     body_type = "Muscular"
-    intimidation_skill
+    intimidation_skill = 1
     fighting_skill = 1
     cooking_skill = 1
     logic_skill = 1
@@ -30,14 +30,14 @@ class employee:
     def hire(self,business,job,salary):
         self.job = job
         self.salary = salary
-        self.moral = capitalist_math.cap_math.calculate_moral()
-        business.employees.add(self)
+        self.moral = 1 #capitalist_math.calculate_moral()
+        business.employees.append(self)
     def fire(self,business):
         #I don't like this implementation but could not think of one where i dont have to use business as an argument.
         #Python experts do your thing!
-        del business.employees.remove(self)
+        business.employees.remove(self)
         self.job = None
         self.salary = 0
-        self.moral = capitalist_math.cap_math.calculate_moral()
+        self.moral = 1 #capitalist_math.calculate_moral()
 def seach():
     pass

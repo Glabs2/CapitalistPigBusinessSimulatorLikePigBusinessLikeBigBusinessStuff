@@ -14,14 +14,15 @@ class business:
     employees = []
     projects = []
     inventory_space = 5
-    Inventory = [capitalist_jobs.product()] * 5
+    Inventory = [capitalist_projects.product()] * 5
     def open(self,name,branche):
         self.name = name
         self.branche = branche
     def renovation(self,inventory_space):
-        costs = capitalist_math.cap_math.calculate_renovation_cost(self,inventory_space)
+        costs = capitalist_math.calculate_renovation_cost(self,inventory_space)
         if costs < self.funds:
             self.funds =- costs
             self.inventory_space = inventory_space
         else:
             #Handle exeption
+            pass
