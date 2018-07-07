@@ -1,24 +1,43 @@
 # Contains Data and actions related to employees
 import capitalist_business
+import capitalist_math
 class employee:
     first_name = "Capitalist"
     last_name = "Worker"
     gender = "male"
     age = 21
     profession = "Guard"
-    job = "None"
+    bio = "Default employee preset"
+    job = None
     project = 0
-    salary = 0
+    salary = 0 #Value in currency units
     moral = 1
     health = 1
     body_type = "Muscular"
+    intimidation_skill
     fighting_skill = 1
     cooking_skill = 1
     logic_skill = 1
     engineering_skill = 1
-    def hire(self,Business,Job,salary):
+    organisation_skill = 1
+    leadership_skill = 1
+    def edit_meta(self):
         pass
-
-all_employees_ingame = [employee()]
+    def set_skills(self):
+        pass
+    def randomise_skills(self):
+        pass
+    def hire(self,business,job,salary):
+        self.job = job
+        self.salary = salary
+        self.moral = capitalist_math.cap_math.calculate_moral()
+        business.employees.add(self)
+    def fire(self,business):
+        #I don't like this implementation but could not think of one where i dont have to use business as an argument.
+        #Python experts do your thing!
+        del business.employees.remove(self)
+        self.job = None
+        self.salary = 0
+        self.moral = capitalist_math.cap_math.calculate_moral()
 def seach():
     pass
