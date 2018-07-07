@@ -7,7 +7,8 @@ import capitalist_math
 class business:
     name = "Capitalist pigs glory hole"
     branche = "Night Club"
-    type = "LP"
+    #console_type is already present in player
+    #type = "LP"
     funds = 1000.00 #Value in Currency units
     credit_worthiness = 0 #Value in Percent use in determaning if loan request will be accepted
     loans = []

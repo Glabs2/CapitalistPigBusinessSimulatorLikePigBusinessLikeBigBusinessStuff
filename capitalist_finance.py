@@ -11,9 +11,9 @@ class loan:
     rate = 0.00 #Value in Currency units per month
     intrest = 0.0000 #Value in Percent
     duration = 0 #Value in rate time units (months)
-    def request(self,borrower,giver,sum,rate,intrest,duration):
+    def request(self,borrower,giver,sum,intrest,rate=None,duration=None):
         pass
-    def offer(self,borrower,giver,sum,rate,intrest,duration):
+    def offer(self,borrower,giver,sum,intrest,rate=None,duration=None):
         pass
     def take(self,borrower,giver,sum,intrest,rate=None,duration=None):
         self.giver = giver

@@ -4,7 +4,7 @@ import collections
 import capitalist_pig
 import capitalist_business
 import capitalist_staff
-# To be added with LAN multiplayer support
+#To be added with LAN multiplayer support
 #import capitalist_networking
 class save_file:
     year = 1982
@@ -12,18 +12,17 @@ class save_file:
     #day = 4
     difficulty = 1
     unemployed_employees = []
-    #I dont like haveing the npc bank separate like this.
-    npc_bank = capitalist_business.business()
+    npcs = [capitalist_pig.player()]
     players = [capitalist_pig.player()]
-    def set_data(self,new_year,new_month,new_difficulty,new_unemployed_employees,new_npc_bank,new_players):
+    def set_data(self,new_year,new_month,new_difficulty,new_unemployed_employees,new_npcs,new_players):
         self.year = new_year
         self.month = new_month
         self.difficulty = new_difficulty
         self.unemployed_employees = new_unemployed_employees
-        self.npc_bank = new_npc_bank
+        self.npcs = new_npcs
         self.players = new_players
     def save(self):
-        file = open("saves.csv","w")
+        file = open("saves.csv","a")
         writer = csv.writer(file,delimiter=";")
         writer.writerow(["year","month","difficulty","player_data"])
         #Does not work with player object needs rework!
