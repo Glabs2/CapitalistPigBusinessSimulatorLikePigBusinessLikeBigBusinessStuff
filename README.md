@@ -12,9 +12,11 @@ If you can answer all this questions with yes then you are in the right place.
 We what to make a **Super crazy, 80s style, Text based, communist inspired, anti-capitalist capitalism simulator**.  
 That means the aim of the game will be to get fucking rich like any capitalist pig would like to be.
 Only to than trow all the money away for useless luxury goods.  
+
 **Fuck them!!!  
 just fuck them!!!  
 fuck them all to death in fact!!!**  
+
 The game why show you why you should and will dislike capitalism.
 ## Sounds good so what features will it have?
 - Branch overarching management features like PR, Accounting, Taxes, insurance, etc
@@ -37,7 +39,7 @@ Progress:
 - [x] Decide what programming Language to use (Python)
 - [x] Decide on what branches to include
 - [ ] Decide how basic game play will look like
-- [x] Build Object oriented program structure as a foundation for all future code
+- [x] Build object oriented program structure as a foundation for all future code
 - [ ] Program capitalist menu screens
 - [ ] Program capitalist math
 - [ ] Program capitalist financial options
